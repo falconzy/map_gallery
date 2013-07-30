@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">       
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Chivo:900" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+         <script>
+            $(function() {
+                $( "#map" ).draggable();
+             });
+  </script>
+    </head>
+    <body>
+        <div id="header"><h1>Welcome to Singapore Gallery</h1></div> 
+            <div id="map">
+                <a class="dot" style='left: 450px;top: 205px;' location="BishanPark"></a>
+                <a class="dot" style='left: 515px;top: 380px;' location="GardenByTheBay"></a>
+            </div>   
+        <div id ="details">
+            <div id="descrption"></div>
+            <div id="gallery"></div>
+            <div></div>
+        </div>
+         <script src="js/mapScript.js"></script>
+         <div id='bgPanel'></div>
+    </body>
+</html>
