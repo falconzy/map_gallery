@@ -5,9 +5,18 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">       
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Chivo:900" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="style/style.css" />
+        
         <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
         <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        
+        <script type="text/javascript" src="resource/helpers/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="resource/helpers/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="resource/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="resource/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
          <script>
             $(function() {
                 $( "#map" ).draggable();
@@ -20,10 +29,8 @@
                 <a class="dot" style='left: 450px;top: 205px;' location="BishanPark"></a>
                 <a class="dot" style='left: 515px;top: 380px;' location="GardenByTheBay"></a>
             </div>   
-        <div id ="details">
+        <div class ="details">
             <div id="descrption"></div>
-            <div id="gallery"></div>
-            <div></div>
         </div>
          <script src="js/mapScript.js"></script>
          <div id='bgPanel'></div>
