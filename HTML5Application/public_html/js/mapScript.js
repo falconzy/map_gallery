@@ -18,7 +18,7 @@ $('document').ready(function(){
 			       
                     var photoURL_b = "http://farm"+val.farm+".staticflickr.com/"+val.server+"/"+val.id+"_"+val.secret+"_b.jpg";
                     var photoURL_S = "http://farm"+val.farm+".staticflickr.com/"+val.server+"/"+val.id+"_"+val.secret+"_q.jpg";
-				            items.push('<a class="fancybox-thumbs" data-fancybox-group="thumb" href='+photoURL_b+' ><img src='+photoURL_b+' width="150" height="150" alt="DSC_0009"></a>');
+				            items.push('<a class="fancybox-thumbs" data-fancybox-group="thumb" href='+photoURL_b+' ><img src='+photoURL_S+' width="150" height="150" alt="DSC_0009"></a>');
 			        });
 				        $('<div/>', {
 					      html: items.join('')
