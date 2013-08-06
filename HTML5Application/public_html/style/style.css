@@ -9,7 +9,12 @@
 body { 
     
     background-color:#7094AE;
-     background: #f5f1ec url(../resource/web_img/bg.jpg);
+    background: #f5f1ec url(../resource/web_img/bg.jpg)no-repeat fixed;
+	background-size: 80%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #map
@@ -31,7 +36,6 @@ body {
 #header
 {
     margin-left: 25px;
-    margin-bottom: 15px;
 }
 .detailsContent{
     position: absolute;
