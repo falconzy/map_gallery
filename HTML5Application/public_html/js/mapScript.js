@@ -10,7 +10,7 @@ $('document').ready(function(){
        $('#bgPanel').addClass('bg_popup');          
          var location = $(this).attr('location');
        $.ajax({
-                url: "../HTML5Application/details/"+location+".html",
+                url: "details/"+location+".html",
                 context: document.body
             }).done(function(img){
                 $('#descrption').html(img);
