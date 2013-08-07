@@ -9,8 +9,8 @@
 body { 
     
     background-color:#7094AE;
-    background: #f5f1ec url(../resource/web_img/bg.jpg)no-repeat fixed;
-	background-size: 80%;
+    background: #f5f1ec url(../resource/web_img/bg.jpeg)no-repeat fixed;
+	background-size: 100%;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,7 +22,7 @@ body {
     position: relative;
     height: 550px;
     width: 960px;
-    margin-left: 25px;
+    margin-left: 150px;
     border:5px solid white;
     background-image: url(../resource/web_img/singapore_map.jpg);
     background-repeat:no-repeat;
@@ -83,13 +83,12 @@ a.dot.selected{
 			box-shadow: 0 0 50px #222;
 		}
 
-h1 {
-  color: #443a33;
+h3 {
+  color: #FFF;
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 40px;
   font-weight: 900;
-  line-height: 1.1;
-  margin-bottom: 25px;
+ 
 }
 
 #imgs img{
