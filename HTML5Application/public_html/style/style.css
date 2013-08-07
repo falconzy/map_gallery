@@ -23,6 +23,7 @@ body {
     height: 550px;
     width: 960px;
     margin-left: 150px;
+	margin-bottom: 20px;
     border:5px solid white;
     background-image: url(../resource/web_img/singapore_map.jpg);
     background-repeat:no-repeat;
@@ -86,7 +87,7 @@ a.dot.selected{
 h3 {
   color: #FFF;
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
  
 }
