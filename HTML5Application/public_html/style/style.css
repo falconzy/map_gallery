@@ -78,13 +78,183 @@ a.dot.selected{
     background-image: url(../resource/web_img/Map_Marker_Pink_icon.png);
 }
 
+a.tracking-route{
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: fixed;
+    background-image: url(../resource/web_img/tracking-route-icon.png);
+    background-repeat:no-repeat;
+    background-position:0,0;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+a.tracking-route:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+a.tracking-route.selected{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+a.travel-baloon{
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: fixed;
+    background-image: url(../resource/web_img/Travel-Baloon-icon.png);
+    background-repeat:no-repeat;
+    background-position:0,0;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+a.travel-baloon:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+a.travel-baloon.selected{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+a.travel-map{
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: fixed;
+    background-image: url(../resource/web_img/travel-map-icon.png);
+    background-repeat:no-repeat;
+    background-position:0,0;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+a.travel-map:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+a.travel-map.selected{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+a.flickr-icon-egg{
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: fixed;
+    background-image: url(../resource/web_img/flickr-icon-egg.png);
+    background-repeat:no-repeat;
+    background-position:0,0;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+a.flickr-icon-egg:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+a.flickr-icon-egg.selected{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+
+a.twitter-icon{
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: fixed;
+    background-image: url(../resource/web_img/twitter-icon.png);
+    background-repeat:no-repeat;
+    background-position:0,0;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+
+a.facebook-icon{
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: fixed;
+    background-image: url(../resource/web_img/facebook-icon.png);
+    background-repeat:no-repeat;
+    background-position:0,0;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+
+a.flickr-icon{
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: fixed;
+    background-image: url(../resource/web_img/flickr-icon.png);
+    background-repeat:no-repeat;
+    background-position:0,0;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+
+a.About-icon{
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: fixed;
+    background-image: url(../resource/web_img/About-icon.png);
+    background-repeat:no-repeat;
+    background-position:0,0;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+
 .fancybox-custom .fancybox-skin {
 			box-shadow: 0 0 50px #222;
 		}
 
 h3 {
-  color: #FFF;
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
+  color: #F2E2DC;
+  font-family: 'Kite One', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 30px;
   font-weight: 900;
   display:inline;
