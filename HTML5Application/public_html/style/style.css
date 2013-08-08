@@ -9,7 +9,7 @@
 body { 
     background-color:#7094AE;
     background: #f5f1ec url(../resource/web_img/bg.jpeg)no-repeat fixed;
-	-webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -21,7 +21,7 @@ body {
     height: 550px;
     width: 960px;
     margin-left: 150px;
-	margin-top: 20px;
+    margin-top: 20px;
     border:5px solid white;
     background-image: url(../resource/web_img/singapore_map.jpg);
     background-repeat:no-repeat;
@@ -38,19 +38,23 @@ body {
 }
 .detailsContent{
     position: absolute;
-    width: 950px;
-    height: 350px;
+    width: 1025px;
+    height: 400px;
     top:75px;
-    left:75px;
+    left:15%;
     z-index: 999;
 }
 .bg_popup
 {
-    position: absolute;
-    top:0;
-    height:100%;
+    position: fixed;
+    /*
+    top:0px;
+    height: 100%;
+    */
+    top:60px;
+    height:450px; 
     width: 100%;
-    background-color: #666666;
+    background-color: #000;
     z-index: 10;
     opacity: 0.9;
     filter:alpha(opacity=90);
@@ -269,8 +273,12 @@ h3 {
     text-align: center;
     
 }
+
 .fancybox-thumbs>img{
- margin-bottom: 5px;
+    margin-bottom: 5px;
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: white;
 }
 
 
